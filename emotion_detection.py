@@ -24,6 +24,3 @@ def emotion_detection(textToAnalyze):
         emotions['sadness'] = None
         emotions['dominant_emotion'] = None
     return emotions
-
-text = "I love coding!"
-emotion = emotion_detection(text)
